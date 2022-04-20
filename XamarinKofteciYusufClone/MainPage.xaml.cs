@@ -13,6 +13,7 @@ namespace XamarinKofteciYusufClone
     {
         public MainPage()
         {
+            
             InitializeComponent();
         }
 
