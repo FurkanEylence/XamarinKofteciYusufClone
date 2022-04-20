@@ -21,24 +21,24 @@ namespace XamarinKofteciYusufClone
             await Navigation.PushAsync(new FavoriLezzetlerPage());
         }
 
-        private void CigUrunler_Click(object sender, EventArgs e)
+        private async void CigUrunler_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            await Navigation.PushAsync(new CigUrunlerPage());
         }
 
-        private void IzgaraEtler_Click(object sender, EventArgs e)
+        private async void IzgaraEtler_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            await Navigation.PushAsync(new IzgaraEtlerPage());
         }
 
-        private void EkmekArasi_Click(object sender, EventArgs e)
+        private async void EkmekArasi_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            await Navigation.PushAsync(new EkmekArasiPage());
         }
 
-        private void TatliIcecek_Click(object sender, EventArgs e)
+        private async void TatliIcecek_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            await Navigation.PushAsync(new TatliPage());
         }
     }
 }
