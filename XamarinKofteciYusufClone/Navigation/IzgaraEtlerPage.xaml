@@ -21,7 +21,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="0" Grid.Column="0">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-sis_21.05.2021_04_15_45.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-sis_21.05.2021_04_15_45.jpg" HeightRequest="100" />
                     <Label Text="Kuzu Şiş /  200 gram" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
@@ -33,7 +33,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="0" Grid.Column="1">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_izgara-kuzu-beyti_21.05.2021_12_12_04.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_izgara-kuzu-beyti_21.05.2021_12_12_04.jpg" HeightRequest="100" />
                     <Label Text="Kuzu Beyti / 200 gram" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
@@ -45,7 +45,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="1" Grid.Column="0">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-pirzola_06.10.2021_04_02_19.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-pirzola_06.10.2021_04_02_19.jpg" HeightRequest="100" />
                     <Label Text="Kuzu Pirzola / 200 gram" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
@@ -57,7 +57,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="1" Grid.Column="1">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_antrikot_21.05.2021_04_13_58.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_antrikot_21.05.2021_04_13_58.jpg" HeightRequest="100" />
                     <Label Text="Dana Antrikot / 200 gram" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
@@ -69,7 +69,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="2" Grid.Column="0">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_izgara-pilic-incik_21.05.2021_11_15_52.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_izgara-pilic-incik_21.05.2021_11_15_52.jpg" HeightRequest="100" />
                     <Label Text="Piliç İncik / 200 gram" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
@@ -81,7 +81,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="2" Grid.Column="1">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_pilic-kasrisik_07.10.2021_05_51_13.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_pilic-kasrisik_07.10.2021_05_51_13.jpg" HeightRequest="100" />
                     <Label Text="Piliç Karışık / 200 gram" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke" Padding="0,0,0,0"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1" />
                     <StackLayout Orientation="Horizontal">
@@ -93,7 +93,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="3" Grid.Column="0">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_izgara-pilic-kanat_21.05.2021_12_16_14.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_izgara-pilic-kanat_21.05.2021_12_16_14.jpg" HeightRequest="100" />
                     <Label Text="Piliç Kanat / 200 gram" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke" Padding="0,0,0,0"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
@@ -105,7 +105,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="3" Grid.Column="1">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-sis-antrikot_21.05.2021_12_22_00.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-sis-antrikot_21.05.2021_12_22_00.jpg" HeightRequest="100" />
                     <Label Text="Dana-Kuzu Et Karışık / 200 gram" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">

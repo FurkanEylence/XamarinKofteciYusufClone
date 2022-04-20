@@ -17,7 +17,7 @@
             <Button Grid.Row="0" Grid.Column="1" Text="MENU" TextColor="#cc6600" Font="Bold"  HorizontalOptions="End" BackgroundColor="#2b2b2b" />
             
             <Label Grid.Row="1" Text="Resim" BackgroundColor="Azure"  Grid.ColumnSpan="2"/>
-            <Button Grid.Row="2" Grid.Column="0" Text="KöfteciYusuf" BackgroundColor="#B55400" TextColor="White" FontAttributes="Italic" FontSize="20" CornerRadius="13" />
+            <Button Grid.Row="2" Grid.Column="0" Text="KöfteciYusuf" Clicked="IzgaraEtler_Click" BackgroundColor="#B55400" TextColor="White" FontAttributes="Italic" FontSize="20" CornerRadius="13" />
             <Button Grid.Row="2" Grid.Column="1" Text="HesaplıKasap" Clicked="CigUrunler_Click" BackgroundColor="Red" TextColor="White" FontAttributes="Italic" FontSize="20" CornerRadius="13" />
             <StackLayout Grid.Row="3" BackgroundColor="#383838" Grid.Column="0" Spacing="15" Padding="10" VerticalOptions="Fill">
                 <Button Text="Favori Lezzetler" Clicked="FavoriLezzetler_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#383838" CornerRadius="10"/>

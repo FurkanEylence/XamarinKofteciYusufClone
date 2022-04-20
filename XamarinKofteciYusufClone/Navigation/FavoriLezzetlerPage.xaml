@@ -21,7 +21,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="0" Grid.Column="0">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_ilikli-kemik-suyu_30.03.2022_09_25_34.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_ilikli-kemik-suyu_30.03.2022_09_25_34.jpg" HeightRequest="100" />
                     <Label Text="Ilikli Kemik Suyu / 600ml" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
@@ -33,7 +33,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="0" Grid.Column="1">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/dana-kiyma_21.05.2021_02_06_34.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/dana-kiyma_21.05.2021_02_06_34.jpg" HeightRequest="100" />
                     <Label Text="Dana Kıyma / 1 Kilogram" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
@@ -45,7 +45,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="1" Grid.Column="0">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_dana-kusbasi_21.05.2021_02_08_53.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_dana-kusbasi_21.05.2021_02_08_53.jpg" HeightRequest="100" />
                     <Label Text="Dana Kusbasi / 1 Kilogram" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
@@ -57,7 +57,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="1" Grid.Column="1">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_ikili-yarim-ekmek-menu_27.01.2022_08_07_51.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_ikili-yarim-ekmek-menu_27.01.2022_08_07_51.jpg" HeightRequest="100" />
                     <Label Text="İkili Yarım Ekmek Menü" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
@@ -69,7 +69,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="2" Grid.Column="0">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_dort-dortluk-yarim-menu-burger-tek-kofte_03.11.2021_05_21_44.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_dort-dortluk-yarim-menu-burger-tek-kofte_03.11.2021_05_21_44.jpg" HeightRequest="100" />
                     <Label Text="Dört Dörtlük Menü - Burger" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
@@ -81,7 +81,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="2" Grid.Column="1">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_az-citir-uclu_21.05.2021_04_54_33.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_az-citir-uclu_21.05.2021_04_54_33.jpg" HeightRequest="100" />
                     <Label Text="Çıtır 3 lü " FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke" Padding="0,0,0,21"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1" />
                     <StackLayout Orientation="Horizontal">
@@ -93,7 +93,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="3" Grid.Column="0">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_izgara-kofte_21.05.2021_12_12_46.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_izgara-kofte_21.05.2021_12_12_46.jpg" HeightRequest="100" />
                     <Label Text="Köfte / 200 gram" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke" Padding="0,0,0,21"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
@@ -105,7 +105,7 @@
                 <StackLayout BackgroundColor="#383838" 
                          Padding="10,15"
                          Grid.Row="3" Grid.Column="1">
-                    <Image Source="https://kofteciyusuf.com/uploads/pictures/thumb_ikili-tam-ekmek-menu_27.01.2022_08_08_27.jpg" HeightRequest="100" />
+                    <ImageButton BackgroundColor="#383838" Source="https://kofteciyusuf.com/uploads/pictures/thumb_ikili-tam-ekmek-menu_27.01.2022_08_08_27.jpg" HeightRequest="100" />
                     <Label Text="İkili Tam Ekmek Menü" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                     <BoxView HeightRequest="1" Background="#f1f1f1"/>
                     <StackLayout Orientation="Horizontal">
