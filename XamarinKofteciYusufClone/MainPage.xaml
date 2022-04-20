@@ -29,7 +29,7 @@
             <Label Grid.Row="3" Text="Top" BackgroundColor="Aqua" Grid.Column="1"/>
             <StackLayout Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Fill">
                 <Button Text="Ana Sayfa" HorizontalOptions="FillAndExpand" TextColor="LightGray" BackgroundColor="#2b2b2b" CornerRadius="10" />
-                <Button Text="Sepetim" HorizontalOptions="FillAndExpand" TextColor="LightGray" BackgroundColor="#cc6600" BorderWidth="2" BorderColor="White" CornerRadius="50"/>
+                <Button ImageSource="https://img.icons8.com/android/70/000000/shopping-basket.png" HorizontalOptions="FillAndExpand"  BackgroundColor="#cc6600" BorderWidth="2" BorderColor="White" CornerRadius="50"/>
                 <Button Text="Hesabım" HorizontalOptions="FillAndExpand" TextColor="LightGray" BackgroundColor="#2b2b2b" CornerRadius="10"/>
                     
                 

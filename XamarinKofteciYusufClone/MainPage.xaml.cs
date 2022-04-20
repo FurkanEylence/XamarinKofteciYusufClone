@@ -17,8 +17,10 @@ namespace XamarinKofteciYusufClone
         }
 
         private async void FavoriLezzetler_Click(object sender, EventArgs e)
-        {
+        { 
             await Navigation.PushAsync(new FavoriLezzetlerPage());
+           
+
         }
 
         private async void CigUrunler_Click(object sender, EventArgs e)
