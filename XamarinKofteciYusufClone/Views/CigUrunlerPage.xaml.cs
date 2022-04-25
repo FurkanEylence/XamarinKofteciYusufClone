@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinKofteciYusufClone.ViewModels;
 
-namespace XamarinKofteciYusufClone.Navigation
+namespace XamarinKofteciYusufClone.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class EkmekArasiPage : ContentPage
+    public partial class CigUrunlerPage : ContentPage
     {
-        public EkmekArasiPage()
+        public CigUrunlerPage()
         {
             InitializeComponent();
+            BindingContext = new CigUrunlerViewModel();
         }
     }
 }

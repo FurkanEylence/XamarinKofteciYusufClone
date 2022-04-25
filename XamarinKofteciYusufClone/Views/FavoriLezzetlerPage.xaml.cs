@@ -6,15 +6,18 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinKofteciYusufClone.Models;
+using XamarinKofteciYusufClone.ViewModels;
 
-namespace XamarinKofteciYusufClone.Navigation
+namespace XamarinKofteciYusufClone.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class IzgaraEtlerPage : ContentPage
+    public partial class FavoriLezzetlerPage : ContentPage
     {
-        public IzgaraEtlerPage()
+        public FavoriLezzetlerPage()
         {
             InitializeComponent();
+            BindingContext = new FavoriLezzetlerViewModel();
         }
     }
 }

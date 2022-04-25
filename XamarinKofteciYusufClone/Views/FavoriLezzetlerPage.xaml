@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Title="Favori Lezzetler"  Padding="10,20" BackgroundColor="#1b1b1b"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:XamarinKofteciYusufClone.ViewModels;assembly=XamarinKofteciYusufClone"
+             x:Class="XamarinKofteciYusufClone.Views.FavoriLezzetlerPage">
+
+    <ContentPage.BindingContext>
+        <viewModels:FavoriLezzetlerViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout BackgroundColor="#383838"
+                         Padding="10,15"
+                         Grid.Row="0" Grid.Column="0">
+                    <ImageButton BackgroundColor="#383838" Source="{Binding Products[0].ImageUrl}" HeightRequest="100" />
+                    <Label Text="{Binding Products[0].Name}" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
+                    <BoxView HeightRequest="1" Background="#f1f1f1"/>
+                    <StackLayout Orientation="Horizontal">
+
+                        <Label Text="{Binding Products[0].Price}" TextColor="WhiteSmoke" BackgroundColor="#383838" FontSize="18" FontAttributes="Bold" Padding="0,12,0,0"/>
+                        <Button ImageSource="https://img.icons8.com/android/70/000000/buy.png" BackgroundColor="#383838"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="#383838"
+                             Padding="10,15"
+                             Grid.Row="0" Grid.Column="1">
+                    <ImageButton BackgroundColor="#383838" Source="{Binding Products[1].ImageUrl}" HeightRequest="100" />
+                    <Label Text="{Binding Products[1].Name}" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
+                    <BoxView HeightRequest="1" Background="#f1f1f1"/>
+                    <StackLayout Orientation="Horizontal">
+
+                        <Label Text="{Binding Products[1].Price}" TextColor="WhiteSmoke" BackgroundColor="#383838" FontSize="18" FontAttributes="Bold" Padding="0,12,0,0"/>
+                        <Button ImageSource="https://img.icons8.com/android/70/000000/buy.png" BackgroundColor="#383838"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="#383838"
+                             Padding="10,15"
+                             Grid.Row="1" Grid.Column="0">
+                    <ImageButton BackgroundColor="#383838" Source="{Binding Products[2].ImageUrl}" HeightRequest="100" />
+                    <Label Text="{Binding Products[2].Name}" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
+                    <BoxView HeightRequest="1" Background="#f1f1f1"/>
+                    <StackLayout Orientation="Horizontal">
+
+                        <Label Text="{Binding Products[2].Price}" TextColor="WhiteSmoke" BackgroundColor="#383838" FontSize="18" FontAttributes="Bold" Padding="0,12,0,0"/>
+                        <Button ImageSource="https://img.icons8.com/android/70/000000/buy.png" BackgroundColor="#383838"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="#383838"
+                             Padding="10,15"
+                             Grid.Row="1" Grid.Column="1">
+                    <ImageButton BackgroundColor="#383838" Source="{Binding Products[3].ImageUrl}" HeightRequest="100" />
+                    <Label Text="{Binding Products[3].Name}" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
+                    <BoxView HeightRequest="1" Background="#f1f1f1"/>
+                    <StackLayout Orientation="Horizontal">
+
+                        <Label Text="{Binding Products[3].Price}" TextColor="WhiteSmoke" BackgroundColor="#383838" FontSize="18" FontAttributes="Bold" Padding="0,12,0,0"/>
+                        <Button ImageSource="https://img.icons8.com/android/70/000000/buy.png" BackgroundColor="#383838"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="#383838"
+                             Padding="10,15"
+                             Grid.Row="2" Grid.Column="0">
+                    <ImageButton BackgroundColor="#383838" Source="{Binding Products[4].ImageUrl}" HeightRequest="100" />
+                    <Label Text="{Binding Products[4].Name}" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
+                    <BoxView HeightRequest="1" Background="#f1f1f1"/>
+                    <StackLayout Orientation="Horizontal">
+
+                        <Label Text="{Binding Products[4].Price}" TextColor="WhiteSmoke" BackgroundColor="#383838" FontSize="18" FontAttributes="Bold" Padding="0,12,0,0"/>
+                        <Button ImageSource="https://img.icons8.com/android/70/000000/buy.png" BackgroundColor="#383838"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="#383838"
+                             Padding="10,15"
+                             Grid.Row="2" Grid.Column="1">
+                    <ImageButton BackgroundColor="#383838" Source="{Binding Products[5].ImageUrl}" HeightRequest="100" />
+                    <Label Text="{Binding Products[5].Name}" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
+                    <BoxView HeightRequest="1" Background="#f1f1f1"/>
+                    <StackLayout Orientation="Horizontal">
+
+                        <Label Text="{Binding Products[5].Price}" TextColor="WhiteSmoke" BackgroundColor="#383838" FontSize="18" FontAttributes="Bold" Padding="0,12,0,0"/>
+                        <Button ImageSource="https://img.icons8.com/android/70/000000/buy.png" BackgroundColor="#383838"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="#383838"
+                             Padding="10,15"
+                             Grid.Row="3" Grid.Column="0">
+                    <ImageButton BackgroundColor="#383838" Source="{Binding Products[6].ImageUrl}" HeightRequest="100" />
+                    <Label Text="{Binding Products[6].Name}" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
+                    <BoxView HeightRequest="1" Background="#f1f1f1"/>
+                    <StackLayout Orientation="Horizontal">
+
+                        <Label Text="{Binding Products[6].Price}" TextColor="WhiteSmoke" BackgroundColor="#383838" FontSize="18" FontAttributes="Bold" Padding="0,12,0,0"/>
+                        <Button ImageSource="https://img.icons8.com/android/70/000000/buy.png" BackgroundColor="#383838"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="#383838"
+                             Padding="10,15"
+                             Grid.Row="3" Grid.Column="1">
+                    <ImageButton BackgroundColor="#383838" Source="{Binding Products[7].ImageUrl}" HeightRequest="100" />
+                    <Label Text="{Binding Products[7].Name}" FontSize="18" FontAttributes="Bold" TextColor="WhiteSmoke"/>
+                    <BoxView HeightRequest="1" Background="#f1f1f1"/>
+                    <StackLayout Orientation="Horizontal">
+
+                        <Label Text="{Binding Products[7].Price}" TextColor="WhiteSmoke" BackgroundColor="#383838" FontSize="18" FontAttributes="Bold" Padding="0,12,0,0"/>
+                        <Button ImageSource="https://img.icons8.com/android/70/000000/buy.png" BackgroundColor="#383838"/>
+                    </StackLayout>
+                </StackLayout>
+
+            </Grid>
+        </ScrollView>
+       
+    </ContentPage.Content>
+</ContentPage>

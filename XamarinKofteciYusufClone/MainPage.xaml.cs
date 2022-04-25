@@ -5,7 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using XamarinKofteciYusufClone.Navigation;
+using XamarinKofteciYusufClone.Models;
+
+using XamarinKofteciYusufClone.Views;
 
 namespace XamarinKofteciYusufClone
 {
@@ -15,6 +17,9 @@ namespace XamarinKofteciYusufClone
         {
             
             InitializeComponent();
+            
+           
+
         }
 
         private async void FavoriLezzetler_Click(object sender, EventArgs e)

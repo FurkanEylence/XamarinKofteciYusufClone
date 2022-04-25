@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinKofteciYusufClone.Navigation
+namespace XamarinKofteciYusufClone.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class FavoriLezzetlerPage : ContentPage
+    public partial class IzgaraEtlerPage : ContentPage
     {
-        public FavoriLezzetlerPage()
+        public IzgaraEtlerPage()
         {
             InitializeComponent();
         }

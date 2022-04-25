@@ -16,19 +16,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Navigation\CigUrunlerPage.xaml">
+    <EmbeddedResource Update="Views\CigUrunlerPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Navigation\EkmekArasiPage.xaml">
+    <EmbeddedResource Update="Views\EkmekArasiPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Navigation\FavoriLezzetlerPage.xaml">
+    <EmbeddedResource Update="Views\FavoriLezzetlerPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Navigation\IzgaraEtlerPage.xaml">
+    <EmbeddedResource Update="Views\IzgaraEtlerPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Navigation\TatliPage.xaml">
+    <EmbeddedResource Update="Views\TatliPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

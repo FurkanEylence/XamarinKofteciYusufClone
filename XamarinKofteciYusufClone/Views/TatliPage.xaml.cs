@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XamarinKofteciYusufClone.Navigation
+namespace XamarinKofteciYusufClone.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CigUrunlerPage : ContentPage
+    public partial class TatliPage : ContentPage
     {
-        public CigUrunlerPage()
+        public TatliPage()
         {
             InitializeComponent();
         }
