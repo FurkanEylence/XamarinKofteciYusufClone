@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinKofteciYusufClone.ViewModels;
 
 namespace XamarinKofteciYusufClone.Views
 {
@@ -15,6 +16,7 @@ namespace XamarinKofteciYusufClone.Views
         public EkmekArasiPage()
         {
             InitializeComponent();
+            BindingContext = new EkmekArasiViewModel();
         }
     }
 }

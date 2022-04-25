@@ -22,9 +22,9 @@ namespace XamarinKofteciYusufClone.ViewModels
             Products.Add(new Product
                 { ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_yarim-kofteee_24.08.2021_12_00_40.jpg", Name = "Köfte", Description = "Yarım Ekmek", Price = 25.00f });
             Products.Add(new Product
-                {ImageUrl = "https://kofteciyusuf.com/uploads/pictures/dana-kiyma_21.05.2021_02_06_34.jpg", Name = "Dana Kıyma", Description = "1 Kilogram", Price = 110.00f });
+                {ImageUrl = "https://kofteciyusuf.com/uploads/pictures/dana-kiyma_21.05.2021_02_06_34.jpg", Name = "Dana Kıyma", Description = "1 Kg", Price = 110.00f });
             Products.Add(new Product
-                {ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_dana-kusbasi_21.05.2021_02_08_53.jpg", Name = "Dana Kusbası", Description = "1 Kilogram", Price = 126.00f});
+                {ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_dana-kusbasi_21.05.2021_02_08_53.jpg", Name = "Dana Kusbası", Description = "1 Kg", Price = 126.00f});
             Products.Add (new Product
                 {ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_ekmek-kadayifi-kaymakli_24.09.2021_05_11_57.jpg", Name = "Ekmek Kadayifi", Description = "Tatlı", Price = 18.00f });
             Products.Add(new Product
