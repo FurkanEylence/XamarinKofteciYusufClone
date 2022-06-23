@@ -12,7 +12,7 @@ namespace XamarinKofteciYusufClone.ViewModels
         CreateModels _models = new CreateModels();
         public TatliIcecekViewModels()
         {
-            Products = _models.productsTatli;
+            //Products = _models.productsTatli;
 
         }
     }

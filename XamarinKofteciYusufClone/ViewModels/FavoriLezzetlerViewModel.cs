@@ -11,7 +11,7 @@ namespace XamarinKofteciYusufClone.ViewModels
         public ObservableCollection<Product> Products { get; set; }
 
         public FavoriLezzetlerViewModel()
-        {
+        {/*
             Products = new ObservableCollection<Product>();
             Products.Add(new Product 
                 { ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-sis-antrikot_21.05.2021_12_22_00.jpg", Name = "Dana-Kuzu Et Karışık", Description = "200 gram", Price = 60.00f });
@@ -30,7 +30,7 @@ namespace XamarinKofteciYusufClone.ViewModels
             Products.Add(new Product
                 { ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_ayranlar_09.07.2021_02_38_27.jpg", Name = "Ayran", Description = "İçecek", Price = 5.00f });
 
-
+            */
         }
     }
 }

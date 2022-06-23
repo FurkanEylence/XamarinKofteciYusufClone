@@ -12,7 +12,7 @@ namespace XamarinKofteciYusufClone.ViewModels
         private CreateModels _models = new CreateModels();
         public MainPageViewModel()
         {
-            Products = _models.productsFav;
+            //Products = _models.productsFav;
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Text;
 namespace XamarinKofteciYusufClone.Models
 {
     public  class CreateModels
-    {
+    {/*
         public ObservableCollection<Product> productsCig = new ObservableCollection<Product>();
         public ObservableCollection<Product> productsFav = new ObservableCollection<Product>();
         public ObservableCollection<Product> productsIzg = new ObservableCollection<Product>();
@@ -29,7 +29,7 @@ namespace XamarinKofteciYusufClone.Models
 
 
             #endregion
-
+            
             #region CigUrunler
             Product burgerKofte = new Product
             { Id = 1, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_burger-koftesi_21.05.2021_02_05_37.jpg", Name = "Burger Köftesi", Description = "1 Kg", Price = 106.0, Category = CigUrunler };
@@ -69,15 +69,15 @@ namespace XamarinKofteciYusufClone.Models
             Product kuzuPirzolaIzgara = new Product
             { Id = 11, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-pirzola_06.10.2021_04_02_19.jpg", Name = "Kuzu Pirzola", Description = "200 gram", Price = 60, Category = IzgaraEtler };
             Product danaAntrikotIzgara = new Product
-            { Id = 12, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_antrikot_21.05.2021_04_13_58.jpg", Name = "Dana Antrikot", Description = "200 gram", Price = 60, Category = IzgaraEtler };
+            { Id = 12, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_antrikot_21.05.2021_04_13_58.jpg", Name = "Dana Antrikot", Description = "200 gram", Price = 60, CategoryID = 3 };
             Product pilicIncikIzgara = new Product
-            { Id = 13, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_izgara-pilic-incik_21.05.2021_11_15_52.jpg", Name = "Pilic İncik", Description = "200 gram", Price = 34, Category = IzgaraEtler };
+            { Id = 13, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_izgara-pilic-incik_21.05.2021_11_15_52.jpg", Name = "Pilic İncik", Description = "200 gram", Price = 34, CategoryID = 3 };
             Product pilicKarisikIzgara = new Product
-            { Id = 14, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_pilic-kasrisik_07.10.2021_05_51_13.jpg", Name = "Pilic Karışık", Description = "200 gram", Price = 34, Category = IzgaraEtler };
+            { Id = 14, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_pilic-kasrisik_07.10.2021_05_51_13.jpg", Name = "Pilic Karışık", Description = "200 gram", Price = 34, CategoryID = 3 };
             Product pilicKanatIzgara = new Product
-            { Id = 15, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_izgara-pilic-kanat_21.05.2021_12_16_14.jpg", Name = "Piliç Kanat", Description = "200 gram", Price = 34, Category = IzgaraEtler };
+            { Id = 15, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_izgara-pilic-kanat_21.05.2021_12_16_14.jpg", Name = "Piliç Kanat", Description = "200 gram", Price = 34, CategoryID = 3 };
             Product danaKuzuKarisikIzgara = new Product
-            { Id = 16, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-sis-antrikot_21.05.2021_12_22_00.jpg", Name = "Dana-Kuzu Et Karışık", Description = "200 gram", Price = 60, Category = IzgaraEtler };
+            { Id = 16, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_kuzu-sis-antrikot_21.05.2021_12_22_00.jpg", Name = "Dana-Kuzu Et Karışık", Description = "200 gram", Price = 60, CategoryID = 3 };
 
             productsIzg.Add(kuzuSisIzgara);
             productsIzg.Add(kuzuBeytiIzgara);
@@ -92,21 +92,21 @@ namespace XamarinKofteciYusufClone.Models
 
             #region EkmekArasi
             Product sucukYEkmek = new Product
-            { Id = 17, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_yarim-sucuk_24.08.2021_12_06_57.jpg", Name = "Sucuk", Description = "Yarım Ekmek", Price = 25, Category = EkmekArasi };
+            { Id = 17, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_yarim-sucuk_24.08.2021_12_06_57.jpg", Name = "Sucuk", Description = "Yarım Ekmek", Price = 25, CategoryID = 4 };
             Product sucukTEkmek = new Product
-            { Id = 18, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_tam-sucuk_24.08.2021_12_08_37.jpg", Name = "Sucuk", Description = "Tam Ekmek", Price = 35, Category = EkmekArasi };
+            { Id = 18, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_tam-sucuk_24.08.2021_12_08_37.jpg", Name = "Sucuk", Description = "Tam Ekmek", Price = 35,CategoryID = 4 };
             Product kofteYEkmek = new Product
-            { Id = 19, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_yarim-kofteee_24.08.2021_12_00_40.jpg", Name = "Köfte", Description = "Yarım Ekmek", Price = 25, Category = EkmekArasi };
+            { Id = 19, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_yarim-kofteee_24.08.2021_12_00_40.jpg", Name = "Köfte", Description = "Yarım Ekmek", Price = 25, CategoryID = 4 };
             Product kofteTEkmek = new Product
-            { Id = 20, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_tam-kofte_24.08.2021_12_07_24.jpg", Name = "Köfte", Description = "Tam Ekmek", Price = 35, Category = EkmekArasi };
+            { Id = 20, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_tam-kofte_24.08.2021_12_07_24.jpg", Name = "Köfte", Description = "Tam Ekmek", Price = 35, CategoryID = 4 };
             Product donerYEkmek = new Product
-            { Id = 21, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_yarim-doner_24.08.2021_12_06_31.jpg", Name = "Döner", Description = "Yarım Ekmek", Price = 25, Category = EkmekArasi };
+            { Id = 21, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_yarim-doner_24.08.2021_12_06_31.jpg", Name = "Döner", Description = "Yarım Ekmek", Price = 25, CategoryID = 4 };
             Product donerTEkmek = new Product
-            { Id = 22, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_tam-doner_24.08.2021_12_08_18.jpg", Name = "Döner", Description = "Tam Ekmek", Price = 35, Category = EkmekArasi };
+            { Id = 22, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_tam-doner_24.08.2021_12_08_18.jpg", Name = "Döner", Description = "Tam Ekmek", Price = 35, CategoryID = 4 };
             Product burgerYEkmek = new Product
-            { Id = 23, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_tekkofte-burger_24.08.2021_12_06_00.jpg", Name = "Burger", Description = "Yarım Ekmek", Price = 25, Category = EkmekArasi };
+            { Id = 23, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_tekkofte-burger_24.08.2021_12_06_00.jpg", Name = "Burger", Description = "Yarım Ekmek", Price = 25, CategoryID = 4 };
             Product burgerTEkmek = new Product
-            { Id = 24, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_ciftkofte-burgerjpg_24.08.2021_12_07_45.jpg", Name = "Burger", Description = "Tam Ekmek", Price = 35, Category = EkmekArasi };
+            { Id = 24, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_ciftkofte-burgerjpg_24.08.2021_12_07_45.jpg", Name = "Burger", Description = "Tam Ekmek", Price = 35, CategoryID = 4 };
 
             productsEkmk.Add(sucukYEkmek);
             productsEkmk.Add(sucukTEkmek);
@@ -122,21 +122,21 @@ namespace XamarinKofteciYusufClone.Models
 
             #region Tatli-Icecek
             Product ekmekKadayifi = new Product
-            { Id = 25, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_ekmek-kadayifi-kaymakli_24.09.2021_05_11_57.jpg", Name = "Ekmek Kadayifi", Description = "Tatlı", Price = 18, Category = TatliIcecek };
+            { Id = 25, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_ekmek-kadayifi-kaymakli_24.09.2021_05_11_57.jpg", Name = "Ekmek Kadayifi", Description = "Tatlı", Price = 18, CategoryID = 5 };
             Product trilice = new Product
-            { Id = 26, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_trilece_02.06.2021_12_21_07.jpg", Name = "Triliçe", Description = "Tatlı", Price = 12, Category = TatliIcecek };
+            { Id = 26, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_trilece_02.06.2021_12_21_07.jpg", Name = "Triliçe", Description = "Tatlı", Price = 12, CategoryID = 5  };
             Product tiramisu = new Product
-            { Id = 27, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_tiramisu_23.08.2021_08_21_04.jpg", Name = "Tiramisu", Description = "Tatlı", Price = 9, Category = TatliIcecek };
+            { Id = 27, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_tiramisu_23.08.2021_08_21_04.jpg", Name = "Tiramisu", Description = "Tatlı", Price = 9, CategoryID = 5  };
             Product ayran = new Product
-            { Id = 28, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_ayranlar_09.07.2021_02_38_27.jpg", Name = "Ayran", Description = "İçecek", Price = 5, Category = TatliIcecek };
+            { Id = 28, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_ayranlar_09.07.2021_02_38_27.jpg", Name = "Ayran", Description = "İçecek", Price = 5, CategoryID = 5  };
             Product kutuIcecek = new Product
-            { Id = 29, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_icecekler_01.06.2021_01_13_41.jpg", Name = "Kutu İçecekler", Description = "İçecek", Price = 8, Category = TatliIcecek };
+            { Id = 29, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_icecekler_01.06.2021_01_13_41.jpg", Name = "Kutu İçecekler", Description = "İçecek", Price = 8, CategoryID = 5  };
             Product salgamSuyu = new Product
-            { Id = 30, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_salgam-cesitleri_01.12.2021_03_54_14.jpg", Name = "Şalgam Suyu", Description = "İçecek", Price = 8, Category = TatliIcecek };
+            { Id = 30, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_salgam-cesitleri_01.12.2021_03_54_14.jpg", Name = "Şalgam Suyu", Description = "İçecek", Price = 8, CategoryID = 5  };
             Product madenSuyu = new Product
-            { Id = 31, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_madensuyu_09.07.2021_02_39_20.jpg", Name = "Maden Suyu", Description = "İçecek", Price = 4, Category = TatliIcecek };
+            { Id = 31, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_madensuyu_09.07.2021_02_39_20.jpg", Name = "Maden Suyu", Description = "İçecek", Price = 4, CategoryID = 5  };
             Product su = new Product
-            { Id = 32, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_su-0-5_11.10.2021_05_23_59.jpg", Name = "Su", Description = "İçecek", Price = 3, Category = TatliIcecek };
+            { Id = 32, ImageUrl = "https://kofteciyusuf.com/uploads/pictures/thumb_su-0-5_11.10.2021_05_23_59.jpg", Name = "Su", Description = "İçecek", Price = 3, CategoryID = 5  };
 
             productsTatli.Add(ekmekKadayifi);
             productsTatli.Add(trilice);
@@ -164,8 +164,8 @@ namespace XamarinKofteciYusufClone.Models
 
 
             #endregion
+        */
 
-        }
-     
+
     }
 }

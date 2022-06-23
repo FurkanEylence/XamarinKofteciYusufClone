@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinKofteciYusufClone.Views;
 
 namespace XamarinKofteciYusufClone
 {
@@ -10,7 +11,7 @@ namespace XamarinKofteciYusufClone
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new LoginView());
         }
 
         protected override void OnStart()

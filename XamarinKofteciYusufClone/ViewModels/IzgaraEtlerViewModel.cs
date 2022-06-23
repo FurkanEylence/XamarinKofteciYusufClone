@@ -12,7 +12,7 @@ namespace XamarinKofteciYusufClone.ViewModels
         CreateModels _models = new CreateModels();
         public IzgaraEtlerViewModel()
         {
-            Products = _models.productsIzg;
+           // Products = _models.productsIzg;
         }
     }
 }

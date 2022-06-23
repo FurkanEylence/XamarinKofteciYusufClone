@@ -26,7 +26,7 @@ namespace XamarinKofteciYusufClone.ViewModels
             Products.Add();
             Products.Add();
             */
-            Products = _models.productsCig;
+            //Products = _models.productsCig;
         }
     }
 }

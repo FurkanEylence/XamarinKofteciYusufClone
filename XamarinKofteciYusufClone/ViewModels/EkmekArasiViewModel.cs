@@ -13,7 +13,7 @@ namespace XamarinKofteciYusufClone.ViewModels
 
         public EkmekArasiViewModel()
         {
-            Products = _models.productsEkmk;
+            //Products = _models.productsEkmk;
         }
     }
 }

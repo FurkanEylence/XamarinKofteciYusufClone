@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundColor="#383838"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinKofteciYusufClone.Views.LoginView">
+             xmlns:vm="clr-namespace:XamarinKofteciYusufClone.ViewModels"
+             x:Class="XamarinKofteciYusufClone.Views.LoginView"
+             >
+    <ContentPage.BindingContext>
+        <vm:LoginViewModel></vm:LoginViewModel>
+    </ContentPage.BindingContext>
+
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
@@ -13,10 +19,10 @@
             <StackLayout Padding="10,15" Orientation="Vertical"
                          Grid.Row="0" Grid.Column="0">
 
-                <Entry x:Name="email" Placeholder="Enter UserName" Keyboard="Email" TextColor="AliceBlue" PlaceholderColor="DarkGray"> </Entry>
-                <Entry x:Name="password" Placeholder="Enter Password" IsPassword="True" TextColor="AliceBlue" PlaceholderColor="DarkGray"></Entry>
-                <Button Grid.Row="2" Text="Giriş Yap" ScaleX="0.7" BackgroundColor="#a53d00" TextColor="White" FontAttributes="Italic" FontSize="20" CornerRadius="13" />
-                <Button Text="Üye Ol" TextColor="DarkGray" FontSize="17" Clicked="UyeOl_Clicked" BackgroundColor="#383838" Padding=",0,0,0"  >
+                <Entry x:Name="name" Placeholder="Enter UserName" Keyboard="Email" BackgroundColor="#383838" Text="{Binding Username}" TextColor="AliceBlue" PlaceholderColor="DarkGray"> </Entry>
+                <Entry x:Name="password" Placeholder="Enter Password" IsPassword="True" BackgroundColor="#383838" Text="{Binding Password}" TextColor="AliceBlue" PlaceholderColor="DarkGray"></Entry>
+                <Button Grid.Row="2" Text="Giriş Yap" ScaleX="0.7" Command="{Binding LoginCommand}" BackgroundColor="#a53d00" TextColor="White" FontAttributes="Italic" FontSize="20" CornerRadius="13" />
+                <Button Text="Üye Ol" TextColor="DarkGray" FontSize="17" Command="{Binding RegisterCommand}"  BackgroundColor="#383838" Padding="0,0,0,0"  >
                     
                 </Button>
             </StackLayout>

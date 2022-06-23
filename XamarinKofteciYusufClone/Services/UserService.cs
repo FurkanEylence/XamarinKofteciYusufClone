@@ -19,14 +19,14 @@ namespace XamarinKofteciYusufClone.Services
 
         public async Task<bool> IsUserExists(string username)
         {
-            var user = (await client.Child("Users").OnceAsync<Customer>()).Where(u => u.Object.Name == username)
-                .FirstOrDefault();
+            var user = (await client.Child("Users").OnceAsync<Customer>())
+                .FirstOrDefault(u => u.Object.Name == username);
             return user != null;
         }
 
         public async Task<bool> RegisterUser(string username, string password)
         {
-            if (await IsUserExists(username) != false)
+            if (await IsUserExists(username) == false)
             {
                 await client.Child("Users").PostAsync(new Customer() { Name = username, Password = password });
                 return true;

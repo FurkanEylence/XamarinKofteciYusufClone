@@ -53,5 +53,7 @@ namespace XamarinKofteciYusufClone
         {
             await Navigation.PushAsync(new LoginView());
         }
+
+      
     }
 }
