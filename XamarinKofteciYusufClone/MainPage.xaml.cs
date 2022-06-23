@@ -48,5 +48,10 @@ namespace XamarinKofteciYusufClone
         {
             await Navigation.PushAsync(new TatliPage());
         }
+
+        private async void Hesabim_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LoginView());
+        }
     }
 }

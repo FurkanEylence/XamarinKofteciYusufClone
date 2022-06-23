@@ -160,7 +160,7 @@
                
                 <Button Text="Ana Sayfa" HorizontalOptions="FillAndExpand" TextColor="#a19eba" BackgroundColor="#1b1b1b" CornerRadius="10" />
                 <Button ImageSource="https://img.icons8.com/android/70/000000/shopping-basket.png" HorizontalOptions="FillAndExpand"  BackgroundColor="#cc6600" BorderWidth="2" BorderColor="White" CornerRadius="50"/>
-                <Button Text="Hesabım" HorizontalOptions="FillAndExpand" TextColor="#a19eba" BackgroundColor="#1b1b1b" CornerRadius="10"/>
+                <Button Text="Hesabım" Clicked="Hesabim_Click" HorizontalOptions="FillAndExpand" TextColor="#a19eba" BackgroundColor="#1b1b1b" CornerRadius="10"/>
                     
                 
             </StackLayout>
