@@ -7,17 +7,18 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamarinKofteciYusufClone.Models;
+using XamarinKofteciYusufClone.ViewModels;
 
 namespace XamarinKofteciYusufClone.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProductDetailsView : ContentPage
     {
-        private ProductDetailsView pvm;
+        private ProductDetailsViewModel pvm;
         public ProductDetailsView(Product foodItem)
         {
             InitializeComponent();
-            pvm = new ProductDetailsView(foodItem);
+            pvm = new ProductDetailsViewModel(foodItem);
             this.BindingContext = pvm;
         }
     }

@@ -2,8 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:viewModels="clr-namespace:XamarinKofteciYusufClone.ViewModels;assembly=XamarinKofteciYusufClone"
              x:Class="XamarinKofteciYusufClone.Views.ProductDetailsView">
+
+    <ContentPage.BindingContext>
+        <viewModels:ProductDetailsViewModel></viewModels:ProductDetailsViewModel>
+    </ContentPage.BindingContext>
+
     <ContentPage.Content>
+
+
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"></RowDefinition>
@@ -16,22 +24,22 @@
             </Grid.RowDefinitions>
             
             <Image Grid.Row="0" Source="{Binding SelectedFoodItem.ImageUrl}" Aspect="AspectFit" VerticalOptions="Start" ></Image>
-            <Label Grid.Row="1" Text="{Binding SelectedFoodItem.Name}" TextColor="AliceBlue" FontSize="35" Margin="20,-80,0,0" />
+            <Label Grid.Row="1" Text="{Binding SelectedFoodItem.Name}" TextColor="DarkGray" FontSize="35" Margin="20,-50,0,0" />
             
             <StackLayout Grid.Row="2" Spacing="10" Padding="10" VerticalOptions="Start">
                 <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Label Text="Product Id:" FontSize="Subtitle" />
-                    <Label Text="{Binding SelectedFoodItem.ProductID}" FontSize="Subtitle" TextColor="AliceBlue" />
+                    <Label Text="Product Id:" FontSize="20" />
+                    <Label Text="{Binding SelectedFoodItem.Id}" FontSize="Subtitle" TextColor="Black" />
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Label Text="Product Id:" FontSize="Subtitle" />
-                    <Label Text="{Binding SelectedFoodItem.ProductName}" FontSize="Subtitle" TextColor="AliceBlue" />
+                    <Label Text="Product Name:" FontSize="20" />
+                    <Label Text="{Binding SelectedFoodItem.Name}" FontSize="Subtitle" TextColor="Black" />
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Label Text="Product Id:" FontSize="Subtitle" />
-                    <Label Text="{Binding SelectedFoodItem.Description}" FontSize="Subtitle" TextColor="AliceBlue" />
+                    <Label Text="Product Description:" FontSize="20" />
+                    <Label Text="{Binding SelectedFoodItem.Description}" FontSize="Subtitle" TextColor="Black" />
                 </StackLayout>
 
             </StackLayout>
@@ -44,7 +52,7 @@
                 </Grid.ColumnDefinitions>
 
 
-                <Button Text="-" FontSize="30" TextColor="White" BackgroundColor="DarkGray" Grid.Column="0" HorizontalOptions="End" Command="{Binding DecrementOrderCommand}"></Button>
+                <Button Text="-" FontSize="30" TextColor="White" BackgroundColor="Gray" Grid.Column="2" HorizontalOptions="End" Command="{Binding DecrementOrderCommand}"></Button>
                 <Entry Text="{Binding TotalQuantity}" HorizontalTextAlignment="Center" FontSize="30" Grid.Column="1" ></Entry>
                 <Button Text="+" FontSize="30" TextColor="White" BackgroundColor="Gray" Grid.Column="0" HorizontalOptions="End" Command="{Binding IncrementOrderCommand}"></Button>
             </Grid>
@@ -55,7 +63,7 @@
                 </pancake:PancakeView>
 
                 <pancake:PancakeView CornerRadius="0,20,60,0" HorizontalOptions="Center">
-                    <Button Text="View Cart" BackgroundColor="AliceBlue" WidthRequest="200" HorizontalOptions="Center" HeightRequest="50" Command="{Binding ViewCartCommand}"></Button>
+                    <Button Text="View Cart" BackgroundColor="LightSkyBlue" WidthRequest="200" HorizontalOptions="Center" HeightRequest="50" Command="{Binding ViewCartCommand}"></Button>
                 </pancake:PancakeView>
 
             </StackLayout>

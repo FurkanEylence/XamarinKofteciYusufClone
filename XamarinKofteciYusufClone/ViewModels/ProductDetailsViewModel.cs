@@ -56,6 +56,10 @@ namespace XamarinKofteciYusufClone.ViewModels
         public Command ViewCartCommand { get; set; }
         public Command HomeCommand { get; set; }
 
+        public ProductDetailsViewModel()
+        {
+            
+        }
         public ProductDetailsViewModel(Product foodItem)
         {
             SelectedFoodItem = foodItem;
