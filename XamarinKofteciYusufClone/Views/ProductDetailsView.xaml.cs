@@ -13,9 +13,12 @@ namespace XamarinKofteciYusufClone.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProductDetailsView : ContentPage
     {
-        public ProductDetailsView(Product product)
+        private ProductDetailsView pvm;
+        public ProductDetailsView(Product foodItem)
         {
             InitializeComponent();
+            pvm = new ProductDetailsView(foodItem);
+            this.BindingContext = pvm;
         }
     }
 }

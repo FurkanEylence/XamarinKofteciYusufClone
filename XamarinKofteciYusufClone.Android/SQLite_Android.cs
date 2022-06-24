@@ -10,9 +10,13 @@ using System.Linq;
 using System.Text;
 using Android.Graphics;
 using SQLite;
+using Xamarin.Forms;
+using XamarinKofteciYusufClone.Droid.SQLite_Android;
 using XamarinKofteciYusufClone.Models;
 using Environment = Android.OS.Environment;
+using Path = System.IO.Path;
 
+[assembly:Dependency(typeof(SQLite_Android))]
 namespace XamarinKofteciYusufClone.Droid.SQLite_Android
 {
     public class SQLite_Android : ISQLite
@@ -21,7 +25,9 @@ namespace XamarinKofteciYusufClone.Droid.SQLite_Android
         {
             var sqliteFileName = "Mydatabase.db3";
             string documentsPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            string libraryPath = Path.Combine(documentsPath, "..", "Library");
+            var path = Path.Combine(documentsPath, sqliteFileName);
+            var cn = new SQLiteConnection(path);
+            return cn;
         }
     }
 }
