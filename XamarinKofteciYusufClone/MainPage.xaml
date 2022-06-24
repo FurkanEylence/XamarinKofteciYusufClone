@@ -2,11 +2,9 @@
 <ContentPage Title="KofteciYusufCloneApp" BackgroundColor="#1b1b1b" xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:XamarinKofteciYusufClone.ViewModels;assembly=XamarinKofteciYusufClone"
+             xmlns:vm="clr-namespace:XamarinKofteciYusufClone.ViewModels;assembly=XamarinKofteciYusufClone"
              x:Class="XamarinKofteciYusufClone.MainPage">
 
-    <ContentPage.BindingContext>
-        <viewModels:MainPageViewModel/>
-    </ContentPage.BindingContext>
 
 
 
@@ -26,6 +24,7 @@
             <Image Grid.Row="1"  Grid.ColumnSpan="2" Source="https://kofteciyusuf.com/uploads/pictures/avatars_kilo-kilo-lezzet_04.03.2022_09_44_41.jpg" Aspect="Fill"/>
             <Button Grid.Row="2" Grid.Column="0" Text="KöfteciYusuf" Clicked="IzgaraEtler_Click" BackgroundColor="#a53d00" TextColor="White" FontAttributes="Italic" FontSize="20" CornerRadius="13" />
             <Button Grid.Row="2" Grid.Column="1" Text="HesaplıKasap" Clicked="CigUrunler_Click" BackgroundColor="Red" TextColor="White" FontAttributes="Italic" FontSize="20" CornerRadius="13" />
+
             <StackLayout Grid.Row="3" BackgroundColor="#1f2326" Grid.Column="0" Spacing="15" Padding="12" VerticalOptions="Fill">
                 <Button  ImageSource="logo.jpg" Text="Favori Lezzetler" Clicked="FavoriLezzetler_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#1f2326" CornerRadius="10"/>
                 <Button  ImageSource="kasap.jpg" Text="Çiğ Ürünler" Clicked="CigUrunler_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#1f2326" CornerRadius="10"/>
@@ -33,7 +32,9 @@
                 <Button ImageSource="ekmek_arasi.jpg"  Text="Ekmek Arası" Clicked="EkmekArasi_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#1f2326" CornerRadius="10"/>
                 <Button ImageSource="tatli_icecek.jpg" Text="Tatlı - İçecek" Clicked="TatliIcecek_Click" HorizontalOptions="FillAndExpand" TextColor="LightGray" VerticalOptions="FillAndExpand" BackgroundColor="#1f2326" CornerRadius="10"/>
             </StackLayout>
-            <ScrollView Grid.Row="3" Grid.Column="1">
+
+
+<ScrollView Grid.Row="3" Grid.Column="1">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"></RowDefinition>
